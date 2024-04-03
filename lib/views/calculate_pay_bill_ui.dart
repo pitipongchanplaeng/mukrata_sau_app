@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class CalculatePayBill extends StatefulWidget {
@@ -10,6 +12,8 @@ class CalculatePayBill extends StatefulWidget {
 class _CalculatePayBillState extends State<CalculatePayBill> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 144, 248, 130),
+    );
   }
 }

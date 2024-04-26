@@ -17,7 +17,7 @@ class HomeUI extends StatefulWidget {
 class _HomeUIState extends State<HomeUI> {
 //สร้างตัวแปรเก็บหน้าจอ (ui) ที่จะใช้กับ ButtomBar
 List<Widget> _currentShow = [
-  CalculatePayBill(),
+  CalculatePayBillUI(),
   MenushopUI(),
   AboutUI(),
 ];
